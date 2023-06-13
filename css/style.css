@@ -1,0 +1,111 @@
+/* Aca pongo la tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Index */
+
+header{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    list-style-type: none;
+
+}
+ul{
+    color: black; 
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;
+    align-items: end ;
+}
+.gloria{
+    font-size: 70px;
+}
+
+p{
+    color: brown;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.titulo{
+    color: brown;
+    text-decoration: underline;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* Todos los h con titulo subrayado */
+h1{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h2{
+    font-size: 20px;
+text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h4{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h5{
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* Footer */
+.Contactar{
+    text-decoration: underline;
+    text-overflow: clip;
+}
+
+
+
+
+
+/* Logo */
+
+#logo{
+      /* Coloca la imagen a la izquierda/derecha  del texto */
+    width: 100px;
+    height: 70px;
+    filter: black(100%);
+}
+
+
+/* Catalogo */
+
+.catalogo{
+     font-size: 60px; /* Tamaño de fuente más grande */
+      text-decoration: underline; /* Subrayado */
+      text-decoration-color: rgb(0, 0, 0); /* Color del subrayado */
+}
+.index-p{
+    color: rgb(199, 0, 0);
+}
+
+/* Imagenes De catalogo */
+
+
+
+
+
+
+/* Quienes somos */
+
+.quienes-somos{
+    font-size: 30px;
+}
+
+#logo2{
+        width: 100px;
+    height: 70px;
+}
