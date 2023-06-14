@@ -12,7 +12,7 @@
 /* Index */
 
 header{
-    background-color: brown;
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: flex;
@@ -22,6 +22,7 @@ header{
 ul{
     color: black; 
     text-decoration: none; 
+    text-transform: initial;
     display: flex;
     flex-direction: column;
     align-items: end ;
@@ -76,7 +77,7 @@ h5{
 #logo{
       /* Coloca la imagen a la izquierda/derecha  del texto */
     width: 100px;
-    height: 70px;
+    height: 90px;
     filter: black(100%);
 }
 
@@ -128,3 +129,28 @@ h5{
     th {
       background-color: #f2f2f2;
     }
+/* Niveles de beneficios */
+    .bronce{
+        color: rgb(175, 128, 0);
+        font-size: x-large;
+    }
+
+    .silver{
+        color: rgb(97, 97, 97);
+        font-size: x-large;
+    }
+
+    .gold{
+        color: #ffee00;
+        font-size: x-large;
+    }
+
+    .diamond{
+        color: rgba(4, 0, 255, 0.856);
+        font-size: x-large;
+    }
+            /* Los Td del cuadro */
+        .tds{
+            font-size: large;
+            font-style:italic;
+        }
