@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-/* Index */
+/* General --------- */
 
 header{
     background-color: yellow;
@@ -19,13 +19,24 @@ header{
     list-style-type: none;
 
 }
-ul{
+
+.gloria-connect{
+    font-size: 30px;
+    color: #000000;
+}
+
+
+/*Indexx -----------------  */
+
+
+.ul-index{
     color: black; 
     text-decoration: none; 
     text-transform: initial;
     display: flex;
     flex-direction: column;
     align-items: end ;
+    font-size: 30px;
 }
 .gloria{
     font-size: 70px;
@@ -85,22 +96,65 @@ h5{
 /* Catalogo */
 
 .catalogo{
-     font-size: 60px; /* Tamaño de fuente más grande */
-      text-decoration: underline; /* Subrayado */
-      text-decoration-color: rgb(0, 0, 0); /* Color del subrayado */
+    font-size: 50px;
+    font-weight:bold;
+}
+
+
+.productos{
+    font-size: 60px;
+        font-weight:bold;
+}
+.articulo1 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.evolve{
+    font-size: 50px;
+    text-decoration:underline;
+    text-decoration-color: #ffee00;
+}
+
+.catalogo-p{
+     font-size: 30px; /* Tamaño de fuente más grande */
+      text-decoration:solid; /* Subrayado */
+            color: #000000;
 }
 .index-p{
     color: rgb(199, 0, 0);
 }
 
-/* Imagenes De catalogo */
+.articulo1{
+    border-radius: 11px 11px 11px 11px;
+    border:3px solid #ffee00;
+    margin: 1px;    
+}
+
+.articulo1 img{
+    height: 1000px;
+}
+
+.articulo2 img{
+    height: 700px;
+}
+
+.articulo2{
+        border-radius: 11px 11px 11px 11px;
+    border:3px solid #ffee00;
+    margin: 0px;
+    padding: 20px;
+}
+.nike-chaleco{
+    font-size: 50px;
+}
 
 
 
 
 
 
-/* Quienes somos */
+/* Informacion */
 
 .quienes-somos{
     font-size: 30px;

@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <body>
     <!-- Titulo -->
   <title class="Titulo"> Gloria Connection</title>
-  title
+  <!-- BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
   <!-- Css -->
   <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
+  <header>
+    <body>
+        <header>
+            <!-- Logo de la empresa -->
+            <img src="../Imagenes/Logotipo.jpg" alt="Logotipo" id="logo">
+            <!-- Titulo  -->
+            <h1 class="gloria">Gloria connection</h1>
+            
+            
+                <ul class="ul-index">
+                    <!-- Links para las distintas pestañas -->
+                    <li><a href="#">Inicio</a></li> 
+    
+                    <li><a href="#">Catálogo</a></li>
+    
+                    <li><a href="#">Exclusivos</a></li>
+    
+                    <li><a href="#">Información</a></li>
+    
+                    <li><a href="#">Beneficios</a></li>
+    
+                </ul>
+            </nav>
+        </header>
+        </header>
+      </body>
+
+<body>
     <!-- Aqui tenemos nuestro catalogo -->
   <h1 class="catalogo">Catálogo</h1>
-  <p>Aqui podras encontrar la variedad de nuestros ultimos productos en stock</p>
+  <p class="catalogo-p">Aqui podras encontrar la variedad de nuestros ultimos productos en stock</p>
 
-  <h2>Productos</h2>
+  <h2 class="productos">Productos</h2>
   <!-- Productos en venta -->
-  <ul>
-    <li>
-      <img src="../Imagenes/Remera evolve.jpg" alt="Producto 1">
-    <h3>Remera oversize Unisex</h3>
-      <p class="catalogo-p">Remera 100% algodon fino color negro 
-        -con estampado adelante y atrás en cerigrafía.
-        -Grifa UW en la parte interior derecha.</p>
-      <p class="catalogo-p">Precio: $15.0000/p>
-    </li>
+      <article class="articulo1">
+      <img src="../Imagenes/Remera evolve.jpg" alt="Producto 1" class="col-md-3 col-3">
+      <img src="../Imagenes/remera evolve 2.jpg" alt="producto2" class="col-md-3 col-3">
+      <h3 class="evolve">Remera oversize Unisex Evolve Negra</h3>
+      <p class="catalogo-p col-md-3 col-12" > -Remera 100% algodon fino color negro <br>
+        -con estampado adelante y atrás en cerigrafía. <br>
+        -Grifa UW en la parte interior derecha. <br> </p>
+      <p class="catalogo-p col-md-3">Precio: $15.0000 </p>
+      </div>
+    </article>
     <!-- Segundo objeto -->
-    <li>
-      <img src="../Imagenes/camepra nike negra.png" alt="Producto 2">
-      <h3>Chaqueta Acolchada Nike Para Hombre Storm - Negra  </h3>
-      <p class="catalogo-p"> Esta campera posee un cuello alto con capucha.
-        - Ofrece puños elastizados y bolsillos laterales.
-        - Luce el logo Nike bordado.
-        - Sin friza.
-        - Material: 100% Algodón </p>
-      <p>Precio: $60.000</p>
-    </li>
-    <!-- Aca podemos seguir agregando mas productos -->
+    <article class="articulo2">
+      <img src="../Imagenes/camepra nike negra.png" alt="Producto 2" class="col-md-3 col-6">
+      <img src="../Imagenes/camperan nike 2.png" alt="producto 2" class="col-md-3 col-6">
+      <h3 class="nike-chaleco">Chaqueta Acolchada Nike Para Hombre Storm - Negra  </h3>
+      <p class="catalogo-p"> Esta campera posee un cuello alto con capucha. <br>
+        - Ofrece puños elastizados y bolsillos laterales. <br>
+        - Luce el logo Nike bordado. <br>
+        - Sin friza. <br>
+        - Material: 100% Algodón  <br> </p>
+      <p class="catalogo-p">Precio: $60.000</p>
+    
   </ul>
-</body>
+</article>
+
+<!-- Aca podemos seguir agregando mas productos -->
 <footer>
-    <p> Gloria Connection. Vesti bien, vesti Gloria connection </p>
+    <p class="gloria-connect"> Gloria Connection. Vesti bien, vesti Gloria connection </p>
     <!-- Aca van las imagenes para las redes -->
     <p>Aqui podras encontrar nuestras redes</p>
     <img src="../Imagenes/facebook.png"  width="100" height="100" alt="facebook">
@@ -48,4 +83,10 @@
     <p class="Contactar"> Porfavor contactanos </p>
     <input type="text"  >
     </footer>
+
+    <!-- BS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </body>
 </html>
