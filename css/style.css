@@ -28,6 +28,10 @@ header{
 
 /*Indexx -----------------  */
 
+.yakuza{
+    position: absolute;
+    top: 2;
+    right: 0;
 
 .ul-index{
     color: black; 
@@ -43,42 +47,47 @@ header{
 }
 
 p{
-    color: brown;
+    color: rgb(0, 0, 0);
     font-family: 'Noto Sans', sans-serif;
     
 }
 .titulo{
-    color: brown;
+    color: rgb(208, 255, 0);
     text-decoration: underline;
     font-family: 'Noto Sans', sans-serif;
 }
-/* Todos los h con titulo subrayado */
-h1{
-    font-size: 20px;
+/* Todos los p con su tamaño*/
+.index-section p{
+font-size: 25px;
+color: #000000;
+}
+
+.beneficios{
+    font-size: 30px;
+    color: #ffee00;
     text-decoration: underline;
+    text-decoration-color: #000000;
 }
-h2{
-    font-size: 20px;
-text-decoration: underline;
-}
-h3{
-    font-size: 20px;
-    text-decoration: underline;
-}
-h4{
-    font-size: 20px;
-    text-decoration: underline;
-}
-h5{
-    font-size: 20px;
-    text-decoration: underline;
-}
+
 /* Footer */
 .Contactar{
     text-decoration: underline;
     text-overflow: clip;
 }
 
+.informacionn img{
+    width: 500px;
+    margin: 0px;
+}
+
+.informacionn p{
+    font-size: 25px;
+    color: #000000;
+}
+
+.informacionn-h{
+font-size: 30px;
+}
 
 
 
@@ -208,3 +217,14 @@ h5{
             font-size: large;
             font-style:italic;
         }
+
+
+
+
+
+
+            /* Exclusivos */
+
+            .versacce{
+                width: 600px;
+            }
