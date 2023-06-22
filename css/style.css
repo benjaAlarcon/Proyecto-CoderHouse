@@ -29,7 +29,7 @@ header{
 /*Indexx -----------------  */
 
 .yakuza{
-    position: absolute;
+    position:relative;
     top: 2;
     right: 0;
 }
@@ -68,6 +68,8 @@ color: #000000;
     text-decoration: underline;
     text-decoration-color: #000000;
 }
+
+
 
 /* Footer */
 .Contactar{
